@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Card Validator</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="header">Card Validate Checker</h1>
+    </header>
+
+    <main>
+      <div class="input">
+        <input type="text" placeholder="Enter your credit card number" />
+        <button class="input-no">
+          <i class="fa fa-check" aria-hidden="true"></i>
+        </button>
+      </div>
+
+      <div class="results">
+        <p class="card-no"></p>
+        <p class="validity"></p>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
